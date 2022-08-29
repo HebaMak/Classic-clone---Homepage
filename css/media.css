@@ -1,0 +1,404 @@
+/* Start Media */
+/* smart phone and tablets from 0 to 767px */
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+    
+    .visible-xs {
+        display: block;
+    }
+
+    .hidden-xs {
+        display: none;
+    }
+
+    .navbar {
+        font-size: 16px;
+    }
+
+    .navbar .navbar-links {
+        width:90%; 
+        margin: auto;
+        background-color: #1abc9c; 
+        position: absolute;
+        top: 75px;
+        
+    }
+
+    .navbar .links {
+        margin-top: 10px;
+        width: 100%;
+        margin-right: 15px;
+    }
+
+    .navbar .navbar-links li{  
+        display: block;
+        padding-left: 10px;
+        border-top: 1px solid #ffffff57; 
+    }
+    
+    .navbar .navbar-links li:first-child {
+        border: none;
+    }
+
+    .navbar .navbar-links li a,
+    .navbar .navbar-links li.active a {
+    text-decoration: none;
+    background-color: #1abc9c; 
+    color: #fff;
+    }
+
+    .navbar .links li a:hover,
+    .navbar .links li.active {
+        color: rgb(16, 32, 19);
+    }
+
+    .header .bxslider li h2 {
+        font-size: 32px;
+    }
+
+    .header .bxslider li p {
+        font-size: 17px;
+    }
+
+    .services {
+        padding: 40px 20px 20px;
+    }
+    
+    .services h2 {
+        margin: 0 0 20px;
+    }
+
+    .services .item {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .our-team {
+        padding: 40px 20px 0;
+    }
+
+    .our-team .boxPara {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .our-team .box {
+        width: 40%;
+        margin:20px 10px;
+        overflow: hidden;
+        height: 183px;
+    }
+    .testim {
+        margin-top: 20px;
+    }
+
+    .testim h2 {
+        padding: 70px 0 60px;
+        font-size: 30px;
+    }
+
+    .testim h2:after {
+        top:115px;
+        left: 110px;
+    }
+
+    .testim p {
+        font-size: 17px;
+        line-height: 1.6;
+    }
+
+    .testim h3 {
+        padding-top: 30px;
+    }
+
+    .our-projects {
+        padding: 30px 0;
+    }
+
+    .our-projects h2 {
+        margin-bottom: 30px;
+    }
+
+    .our-projects .gallery {
+        margin-top: 30px; 
+    }
+
+    .our-projects .gallery .row > div {
+        width: 100%;
+        margin: 10px auto;
+        height: 223px;
+        text-align: center;
+    }
+
+    .our-projects .gallery .row > div:nth-child(2) {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .our-projects .gallery .row > div .overlay3 h4 {
+        right: 39%;
+    }
+    
+    .footer .col {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer .col h3 {
+        margin-bottom: 15px;
+    }
+
+    .footer .tags span {
+        margin: 0 5px 0 0 ;
+    }
+} 
+
+
+/* small screen from 768px to 991px*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+    
+    .visible-xs {
+    display: none;
+    }
+
+    .hidden-xs {
+        display: block;
+    }
+
+    .visible-md {
+        display: block;
+    }
+
+    .hidden-md {
+        display: none ;
+    }
+
+    .navbar .brand {
+        width: 23%;
+        margin-right: 2%;
+    }
+
+    .navbar .links {
+        width: 75%;
+    }
+
+    .header .bxslider li h2 {
+        font-size: 45px;
+    }
+
+    .header .bxslider li p {
+        font-size: 19px;
+    }
+
+    .services {
+        padding: 60px 20px 30px;
+    }
+    .services h2 {
+        margin: 0 0 30px;
+    }
+
+    .services .item {
+        width: 44%;
+        margin: 3%;
+        margin-bottom: 0;
+    }
+    .services .item .info p {
+        line-height: 1.6;
+    }
+    .services .item:nth-of-type(3) ,
+    .services .item:nth-of-type(6) {
+    margin-right: 3%;
+    }
+
+    .our-team {
+        padding: 30px 20px 30px;
+    }
+    
+    .our-team .boxPara {
+        width: 70%;
+        margin: 0 15% 30px 15%;
+    }
+
+    .our-team .box {
+        width: 23%;
+        margin-right: 1%;
+    }
+
+    .our-team .box:last-of-type {
+        margin-right: 0%;
+    }
+
+    .our-team .box .overlay2 h4:after {
+        left: 35px;
+    }
+
+    .testim h2 {
+        padding: 50px 0 60px;
+        font-size: 35px;
+        position: relative;
+    }
+
+    .testim h2:after {
+        left: 180px;
+        top: 100px;
+    }
+
+    .testim p {
+        font-size: 18px;
+        width: 90%;
+        
+    }
+
+    .our-projects {
+        padding: 40px 0;
+    }
+
+    .our-projects h2 {
+        margin-bottom: 30px;
+    }
+
+    .our-projects .gallery {
+        margin-top: 30px; 
+        overflow: hidden;
+        margin: 3%;
+    }
+
+    .our-projects .gallery .row > div {
+        height: 120px;
+    }
+
+    .our-projects .gallery .row > div .overlay3 h4 {
+        margin: 0;
+        padding: 8px;
+        font-size: 16px;
+        top: 30%;
+        right: 28%;
+    }
+
+    .our-projects .gallery .row > div .overlay3 span {
+        visibility: hidden;
+        position: absolute;
+        top :90px ;
+        right: 20px;
+    }
+    
+    .footer .col {
+        width: 32%;
+        margin-bottom:40px;
+        margin-right: 1%
+    }
+}
+
+
+/* medieum screen from 992px to 1199px*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 960px;
+    }
+    
+    .visible-xs {
+        display: none;
+    }
+
+    .hidden-xs {
+        display: block;
+    }
+
+    .visible-md {
+        display: block;
+    }
+
+    .hidden-md {
+        display: none;
+    }
+
+    .navbar .brand {
+        width: 40%;
+    }
+
+    .navbar .links {
+        float: left;
+        width: 60%;
+        margin-top: 25px;
+    }
+
+    .header .bxslider li h2 {
+        font-size: 50px;
+    }
+
+    .header .bxslider li p {
+        font-size: 20px;
+    }
+
+    .our-team .boxPara {
+        width: 70%;
+        margin: 0 15% 20px 15%;
+    }
+
+    .our-team .box {
+        width: 23%;
+        margin-right: 1%;
+    }
+    .our-team .box:last-of-type {
+        margin-right: 0;
+    }
+
+    .our-team .box .overlay2 h4:after {
+        top: 105px;
+        left: 62px;
+        
+    }
+
+    .testim h2:after {
+        left: 300px;
+    }
+
+    .our-projects .gallery .row > div {
+        height: 175px;
+    }
+
+    .our-projects .gallery .row > div .overlay3 h4 {
+        top: 40%;
+        right: 30%;
+    }
+
+    .our-projects .gallery .row > div .overlay3 span {
+        top :140px ;
+        right: 40px;
+    }
+
+    .footer .col:first-of-type {
+        width: 23%;
+    }
+    .footer .col:nth-of-type(2) {
+        width: 25%;
+    }
+    .footer .col:nth-of-type(3) {
+        width: 27%;
+    }
+    .footer .col:last-of-type {
+        width: 15%;
+    }
+}
+
+/*large screen from 1200px*/
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+    .navbar .visible-xs {
+        display: none;
+    }
+    .navbar .hidden-xs{
+        display: block;
+    }
+}
+/* End Media */
+
+
+
